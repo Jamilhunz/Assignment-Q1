@@ -1,0 +1,7 @@
+let el = document.querySelector('#header')
+
+let msg: string = 'Hi friend, try edit me!'
+el.innerHTML = msg
+
+const name = prompt('What is your name?');
+  alert(`Hello ${name}, would you like to learn some Python today?!`);
